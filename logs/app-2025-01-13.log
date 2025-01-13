@@ -1,0 +1,248 @@
+ [LOGGER] 2025-01-13 11:50:01.838 AM error : uncaughtException: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\base.js:479:9)
+    at internals.Base.method [as message] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\extend.js:145:29)
+    at userValidation (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/validations/userValidation.js:13:8)
+    at createUser (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/controllers/userController.js:7:28)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+ [LOGGER] 2025-01-13 11:56:29.353 AM error : uncaughtException: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\base.js:479:9)
+    at internals.Base.method [as message] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\extend.js:145:29)
+    at userValidation (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/validations/userValidation.js:13:8)
+    at createUser (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/controllers/userController.js:7:28)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+ [LOGGER] 2025-01-13 11:57:45.265 AM error : uncaughtException: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\base.js:479:9)
+    at internals.Base.method [as message] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\joi\lib\extend.js:145:29)
+    at userValidation (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/validations/userValidation.js:13:8)
+    at createUser (file:///C:/Bootcamp-Mandiri/pos-app/pos-backend/src/controllers/userController.js:7:28)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Bootcamp-Mandiri\pos-app\pos-backend\node_modules\express\lib\router\layer.js:95:5)
+ [LOGGER] 2025-01-13 12:00:08.276 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+
+Can't reach database server at `localhost:3306`
+
+Please make sure your database server is running at `localhost:3306`.
+ [LOGGER] 2025-01-13 12:00:57.435 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: undefined,
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:01:56.474 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: undefined,
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:02:15.985 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: undefined,
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:03:09.408 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: "akmalefs",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:06:22.234 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: undefined,
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:06:54.595 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    userName: undefined,
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:07:29.044 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "akmal",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:08:32.054 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:10:41.296 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:11:30.739 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    userName: "widad23",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:11:58.018 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    userName: "widad23",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:13:49.980 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    userName: "widad23",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:30:05.143 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:30:58.872 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    password: {},
+    role: "admin",
++   username: String
+  }
+}
+
+Argument `username` is missing.
+ [LOGGER] 2025-01-13 12:31:34.460 PM error : controllers/userController.js: createUser: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    name: "Akmal Widad",
+    username: "male",
+    password: {},
+              ~~
+    role: "admin"
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.

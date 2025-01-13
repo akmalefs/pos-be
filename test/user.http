@@ -1,0 +1,11 @@
+### create user
+
+POST {{BASE_URL}}/users
+Content-Type: application/json
+{
+    "name": "akmal",
+    "username": "male",
+    "password": "1234",
+    "confirmPassword": "4321",
+    "role": "admin"
+}
